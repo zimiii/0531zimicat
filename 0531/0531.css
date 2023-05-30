@@ -1,0 +1,19 @@
+.fashion-image {
+	position:relative;
+	height:1920px;
+	width:1080px;
+	margin:0 auto;
+  }
+  
+  .fashion-image img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+  }
+  
+  .fashion-image img.top:hover {
+	opacity:0;
+  }
